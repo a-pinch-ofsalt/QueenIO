@@ -36,11 +36,12 @@ private void AddEntryToInner(string infile)
 - UAsset/UExp Files from Code Vein
 
 # Building
-1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI) (make sure to `git checkout be66982` in the UAssetAPI repository)
-2. Open the QueenIO.sln in Visual Studio
-3. Rename the cloned `UAssetAPI` repository to `UAssetAPI-master` and put it under `C:\Programs`. Or, fix the UAssetAPI reference to where you unpack it
+1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI)
+2. Move UAssetAPI folder into `C:\Programs` and rename it `UAssetAPI-master`. Or fix the UAssetAPI reference to where you unpack it in Visual Studio, in later steps
+3. Go into `UAssetAPI-master` and run `git checkout be66982`
 4. In `UAssetAPI-master\UAssetAPI\UAssetAPI.csproj`, change `<TargetFrameworkVersion>` to `v4.8`
-5. Build the file by right clicking on the solution name in the Solition Explorer
+5. Open the QueenIO.sln in Visual Studio
+8. Build the file by right clicking on the solution name in the Solition Explorer
 
 # Credits
 [UAssetAPI](https://github.com/atenfyr/UAssetAPI) Really the Back bone to the whole thing by providing an easy to use uasset phraser.
