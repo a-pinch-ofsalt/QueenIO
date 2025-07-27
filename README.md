@@ -32,11 +32,11 @@ private void AddEntryToInner(string infile)
 
 # Dependencies
 - [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework)  
-- [UAssetAPI](https://github.com/atenfyr/UAssetAPI) for Building
+- [UAssetAPI](https://github.com/atenfyr/UAssetAPI), commit `be66982` for Building
 - UAsset/UExp Files from Code Vein
 
 # Building
-1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI)
+1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI) (use UAssetAPI commit `be66982`)
 2. Open the QueenIO.sln in Visual Studio
 3. Fix the UAssetAPI reference to where you unpack it if need be
 4. Build the file by right clicking on the solution name in the Solition Explorer
