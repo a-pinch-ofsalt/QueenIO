@@ -36,7 +36,7 @@ private void AddEntryToInner(string infile)
 - UAsset/UExp Files from Code Vein
 
 # Building
-1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI) (use UAssetAPI commit `be66982`)
+1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI) (make sure to `git checkout be66982` in the UAssetAPI repository)
 2. Open the QueenIO.sln in Visual Studio
 3. Rename the cloned `UAssetAPI` repository to `UAssetAPI-master` and put it under `C:\Programs`. Or, fix the UAssetAPI reference to where you unpack it
 4. In `UAssetAPI-master\UAssetAPI\UAssetAPI.csproj`, change `<TargetFrameworkVersion>` to `v4.8`
