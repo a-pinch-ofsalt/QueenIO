@@ -38,8 +38,9 @@ private void AddEntryToInner(string infile)
 # Building
 1. Download both the Source code from QueenIO and [UAssetAPI](https://github.com/atenfyr/UAssetAPI) (use UAssetAPI commit `be66982`)
 2. Open the QueenIO.sln in Visual Studio
-3. Fix the UAssetAPI reference to where you unpack it if need be
-4. Build the file by right clicking on the solution name in the Solition Explorer
+3. Rename the cloned `UAssetAPI` repository to `UAssetAPI-master` and put it under `C:\Programs`. Or, fix the UAssetAPI reference to where you unpack it
+4. In `UAssetAPI-master\UAssetAPI\UAssetAPI.csproj`, change `<TargetFrameworkVersion>` to `v4.8`
+5. Build the file by right clicking on the solution name in the Solition Explorer
 
 # Credits
 [UAssetAPI](https://github.com/atenfyr/UAssetAPI) Really the Back bone to the whole thing by providing an easy to use uasset phraser.
