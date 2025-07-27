@@ -41,6 +41,8 @@ private void AddEntryToInner(string infile)
 3. Go into `UAssetAPI-master` and run `git checkout be66982`
 4. In `UAssetAPI-master\UAssetAPI\UAssetAPI.csproj`, change `<TargetFrameworkVersion>` to `v4.8`
 5. Open the QueenIO.sln in Visual Studio
+6. In Solution Explorer, right click UAssetAPI > Properties
+7. Set `Target Framework` to `.NET Framework 4.8`
 8. Build the file by right clicking on the solution name in the Solition Explorer
 
 # Credits
